@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  $(document).on("scroll", onScroll);
   // Add scrollspy to <body>
   $('body').scrollspy({target: ".nav", offset: 50});   
 
@@ -25,3 +26,18 @@ $(document).ready(function(){
     }  // End if
   });
 });
+
+function onScroll(event){
+  var scrollPos = $(document).scrollTop();
+  $('#navbar a').each(function () {
+      var currLink = $(this);
+      var refElement = $(currLink.attr("href"));
+      if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+          $('#menu-center ul li a').removeClass("active");
+          currLink.addClass("active");
+      }
+      else{
+          currLink.removeClass("active");
+      }
+  });
+}
