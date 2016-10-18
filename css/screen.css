@@ -23,6 +23,9 @@ body {
 	text-align: center;
 }
 
+.header {
+	background: #FCFDFF;	
+}
 .site-wrapper {
 	display: table;
 	height: 100%;
@@ -42,7 +45,7 @@ body {
 }
 
 .inner {
-	padding: 1em 2em;
+	padding: 0.4em 2em;
 }
 
 .logo {
@@ -93,7 +96,6 @@ ol.pub-list li {
 h2.top {
 	margin-top:50px;
 }
-
 
 
 @media ( min-width : 40em) {
