@@ -14,12 +14,12 @@ a,a:focus,a:hover {
 }
 
 html,body {
-	background-color: #FCFDFF; /* #565656; */
+	/*background-color: #FCFDFF; #565656; */
 	height: 100%;
 }
 
 body {
-	color: #555555;
+	color: #222;
 	text-align: center;
 }
 
@@ -52,6 +52,13 @@ body {
 	margin-bottom: 0;
 	font-weight:300;
 	font-size:26px;
+	color: #007bff;
+}
+
+.htop {
+	font-weight:300;
+	font-size:26px;
+	color: #007bff;
 }
 
 .nav-top .nav-link {
@@ -86,15 +93,27 @@ body {
 ol.pub-list {
 	margin-top:20px;
 	text-align:left;
-	/* max-width:800px; */
+	color:#333;
 	font-size:16px;	
 }
+
 ol.pub-list li {
 	margin-bottom:15px;
+}
+ol.pub-list span.item {
+	color: #007bff;
+}
+
+ol.pub-list b {
+	font-weight: normal;
 }
 
 h2.top {
 	margin-top:50px;
+}
+h2.year{
+	font-size:20px;
+	color: #007bff;
 }
 
 
@@ -128,3 +147,10 @@ h2.top {
 		padding-right:30px;
 	} */
 } 
+.card {
+	border:0px;
+}
+
+.aboutme {
+	background-color: #f8f8f8; /* #565656; */
+}

@@ -9,107 +9,161 @@
 <meta name="author" content="Stephen Lee">
 <meta name="keywords" content="stephenlee86, cics, phd student, energy, renewable" />
 <title>Stephen Lee</title>
-<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrapv4.min.css" rel="stylesheet">
 <link href="css/screen.css" rel="stylesheet">
 </head>
 <body>
-	<section class="site-wrapper" id="aboutme">
+	<!-- Page Content -->
+    <div class="container">
+      <!-- Heading Row -->
+      <div class="row my-4 aboutme p-3">
+        <div class="col-lg-3">
+        	<h3 class="htop">Stephen Lee</h3>
+        	<img class="img-fluid rounded mt-3" width=300 src="img/stephenlee86.jpg" />
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-6 text-justify">
+          <h1 class="htop">BIO</h1>
+          <p class="mt-3">I am a Ph.D. Student at University of Massachuestts Amherst. 
+          	My advisor is <a href="#">Prof. Prashant Shenoy</a>.</p>
+          <p>My research interests lie broadly in the area of distributed systems and cyber-physical systems (CPS), with an emphasis on 
+           smart cities, energy and transportation. My work involves using principled approaches from distributed systems, machine learning, 
+       and optimization to optimize for energy efficiency, dependability of systems, and costs.</p>
+       	   <p>I also maintain the <a target="_blank" href="http://traces.cs.umass.edu/index.php/Smart/Smart">Smart*</a> repository.</p>
+        </div>
+        <!-- /.col-md-4 -->
+        <div class="col-lg-3 text-left">
+          <h1 class="htop">INFO</h1>
+          <p class="mt-3"><a href="mailto:">stephenlee<@>cs.umass.edu</a><br>
+          	<a target="_blank" href="https://scholar.google.com/citations?user=qsjlH3AAAAAJ">Google Scholar</a><br>
+          	<a href="docs/cv.pdf">Resume</a><br>
+          	<!-- <a href="#">Research Statement</a><br/>
+          	<a href="#">Teaching Statement</a> -->
+          </p>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <!--  -->
+      <div class="card text-white my-4 text-left">
+      	
+        <div class="card-body" >
+        	<h1 class="htop">Publications</h1>
+
+        	<!-- <h2 class="year">2016</h2> -->
+			<ol class="pub-list">
+				<li><span class="item">Managing Risk in a Derivative IaaS Cloud</span>. <br>
+					Prateek Sharma, <b class="name">Stephen Lee</b>, Tian Guo, David Irwin, and Prashant Shenoy.<br>
+					Proceedings of IEEE Transactions on Parallel and Distributed Systems, (TPDS '18).<br>
+					<a href="papers/tpds_spotcheck.pdf">[PDF]</a>
+				</li>
+				<li><span class="item">WattHome: A Data-driven Approach for Energy Efficiency Analytics at City-scale</span>. <br>
+					Srinivasan Iyengar, <b class="name">Stephen Lee</b>, David Irwin, Prashant Shenoy, and Benjamin Weil.<br>
+					Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, (KDD '18).<br>
+					<a href="papers/kdd18-watthome.pdf">[PDF]</a>
+				</li>
+				<li><span class="item"> SolarClique: Detecting Anomalies in Residential Solar Arrays</span>. <br>
+					Srinivasan Iyengar, <b class="name">Stephen Lee</b>, Daniel Sheldon, and Prashant Shenoy.<br>
+					Proceedings of the 1st ACM SIGCAS Conference on Computing and Sustainable Societies, (ACM COMPASS '18).<br>
+					<a href="papers/compass18-solar.pdf">[PDF]</a>
+				</li>
+				<li><span class="item"> vSolar: Virtualizing Community Solar and Storage for Energy Sharing</span>. <br>
+					John Wamburu, <b class="name">Stephen Lee</b>, Prashant Shenoy, and David Irwin.<br>
+					Proceedings of the Ninth International Conference on Future Energy Systems, (ACM e-Energy '18). (Notes Paper).<br>
+					<a href="papers/eenergy18-vsolar.pdf">[Notes]</a>
+				</li>
+				<li><span class="item">Distributed Rate Control for Smart Solar Arrays</span>. <br>
+					<b class="name">Stephen Lee</b>, Srinivasan Iyengar, David Irwin, and Prashant Shenoy. <br>
+					Proceedings of the Eighth International Conference on Future Energy Systems, (ACM e-Energy '17) <br>
+					<a href="papers/ratecontrol.pdf">[PDF]</a>
+				</li>
+				<li><span class="item">SunShade: Enabling Software-Defined Solar-Powered Systems</span>. <br>
+					Akansha Singh, <b class="name">Stephen Lee</b>, David Irwin, and Prashant Shenoy. <br>
+					Proceedings of the 8th ACM/IEEE International Conference on Cyber-Physical Systems, (ICCPS '17)<br>
+					<a href="papers/sunshade_iccps.pdf">[PDF]</a>
+				</li>
+				
+				<li><span class="item">Enabling Distributed Energy Storage by Incentivizing Small Load Shifts.</span>. <br>
+					David Irwin, Srinivasan Iyengar, <b class="name">Stephen Lee</b>, Aditya Mishra, Prashant Shenoy, and Ye Xu.<br>
+					ACM Transactions on Cyber-Physical Systems (ACM TCPS '17).<br>
+					<a href="papers/tcps17.pdf">[PDF]</a>
+				</li>
+				<li><span class="item">Analyzing Energy Usage on a City-scale
+						using Utility Smart Meters</span>. <br>  Srinivasan Iyengar, <b class="name">Stephen Lee</b>, David Irwin,
+					Prashant Shenoy. <br>Proceedings of the 3rd ACM
+					International Conference on Embedded Systems for Energy-Efficient
+					Built Environments (ACM BuildSys). 2016. <br>
+					<a href="papers/buildsys16.pdf">[PDF]</a>
+				</li>
+				<li><span class="item">Shared Solar-powered EV Charging
+						Stations: Feasibility and Benefits</span>. <br> <b class="name">Stephen Lee</b>, Srinivasan Iyengar, David Irwin,
+					Prashant Shenoy.  <br>Proceedings of the seventh
+					Intl. Green and Sustainable Computing (IGSC), Hangzhou, China,
+					Nov 2016.<br>
+ 					<a href="papers/igsc16.pdf">[PDF]</a>					
+				</li>
+				<li><span class="item">How to Cool Internet-Scale
+						Distributed Networks on the Cheap</span>. <br> Vani Gupta, <b class="name">Stephen Lee</b>, Prashant Shenoy, Ramesh
+					Sitaraman, Rahul Urgaonkar. <br>
+					Proceedings of the seventh ACM Intl. Conference on Future Energy Systems (ACM e-Energy), Waterloo, Canada, June 2016.<br>
+					<a href="papers/eenergy16-cooling.pdf">[PDF]</a>
+				</li>
+				<!-- <li><span class="item">SunShade: Software-defined Solar Power</span>. <br> 
+					Akansha Singh, <b class="name">Stephen Lee</b>, David Irwin, Prashant Shenoy. <br>
+					Proceedings of the seventh ACM Intl. Conference on Future Energy Systems (ACM e-Energy), Waterloo, Canada, June 2016 (Poster).<br>
+					<a href="papers/404.html">[Poster]</a>
+				</li> -->
+			<!-- </ol> -->
+			<!-- <h2 class="year">2015</h2> -->
+			<!-- <ol class="pub-list"> -->
+				<li><span class="item">Integrating
+						Energy Storage in Electricity Distribution Networks</span>. <br> Aditya Mishra, Ramesh Sitaraman, David Irwin, Ting Zhu,
+					Prashant Shenoy, Bhavana Dalvi, <b class="name">Stephen Lee</b>.
+					<br>
+					Proceedings of the sixth ACM Intl. Conference on Future Energy Systems (ACM e-Energy), Bengaluru, India, July 2015.<br>
+					<a href="papers/eenergy2015.pdf">[PDF]</a>
+				</li>
+				<li><span class="item">Cost Minimization using Renewable Cooling
+						and Thermal Energy Storage in CDNs</span>. <br> <b class="name">Stephen Lee</b>, Rahul Urgaonkar, Ramesh Sitaraman,
+					Prashant Shenoy. <br>Proceedings of the 12th IEEE
+					International Conference on Autonomic Computing (ICAC), July
+					2015.<br>
+ 					<a href="papers/icac15.pdf">[PDF]</a>					
+ 				</li>
+				<li><span class="item">Towards cooling Internet-Scale
+						Distributed Networks on the Cheap</span>. <br> Vani Gupta, <b class="name">Stephen Lee</b>, Prashant Shenoy, Ramesh
+					Sitaraman, Rahul Urgaonkar. <br>Proceedings of the ACM
+					Sigmetrics Conference, (ACM SIGMETRICS '15) Portland, Oregon, June 2015.<br>
+					<a href="papers/sigmetrics15.pdf">[Extended Abstract]</a>
+				</li>
+				<li><span class="item">SpotCheck: Designing a Derivative IaaS Cloud on the Spot Market</span>. <br> Prateek Sharma, <b class="name">Stephen Lee</b>, Tian Guo, David
+					Irwin, Prashant Sharma. <br>Proceedings of the Tenth European Conference
+					on Computer Systems, (EuroSys '15), April 2015.<br>
+					<a href="papers/eurosys15.pdf">[PDF]</a>
+				</li>
+			</ol>
+          	<!-- <nav class="nav" id="navbar">
+				<a class="nav-link active" href="#aboutme">About Me</a> 	
+				<a class="nav-link" href="#contact">Contact</a> 
+				<a class="nav-link" target="_blank" href="docs/cv.pdf">Resume</a>
+			</nav> -->
+        </div>
+      </div>
+      <!-- /.row -->
+    </div>
+	<!-- <section id="publication" class="site-wrapper">
 		<div class="site-wrapper-inner">
 			<div class="cover-container">
-				<div class="header clearfix">
-					<div class="inner">
-						<h3 class="logo">Stephen Lee</h3>
-						<nav class="nav nav-top" id="navbar">
-							<a class="nav-link active" href="#aboutme">About Me</a> <a
-								class="nav-link" href="#publication">Publications</a> <a
-								class="nav-link" href="#contact">Contact</a> <a class="nav-link"
-								target="_blank" href="docs/cv.pdf">Resume</a>
-						</nav>
-					</div>
-				</div>
 				<div class="inner cover">
-					<p class="lead">
-						<img width=200 src="img/stephenlee86.jpg" />
-					</p>
-					<p class="lead">PhD student @ UMass Amherst</p>
-					<p class="lead">energy analytics, cyber-physical systems, smart
-						homes</p>
-					<p class="lead">
-						advisor: Prashant Shenoy<a href="cv.pdf"></a>
-					</p>
-					<p class="lead">
-						<a
-							href="https://scholar.google.com/citations?user=qsjlH3AAAAAJ&hl=en&oi=ao">Google
-							Scholar</a>
-					</p>
+					
 				</div>
 				<div class="footer">
 					<div class="inner"></div>
 				</div>
 			</div>
 		</div>
-	</section>
-	<section id="publication" class="site-wrapper">
-		<div class="site-wrapper-inner">
-			<div class="cover-container">
-				<div class="inner cover">
-					<h2 class="top">2016</h2>
-					<ol class="pub-list">
-						<li>Srinivasan Iyengar, <b>Stephen Lee</b>, David Irwin,
-							Prashant Shenoy. <i>Analyzing Energy Usage on a City-scale
-								using Utility Smart Meters</i>. Proceedings of the 3rd ACM
-							International Conference on Embedded Systems for Energy-Efficient
-							Built Environments (ACM BuildSys). 2016.
-						</li>
-						<li><b>Stephen Lee</b>, Srinivasan Iyengar, David Irwin,
-							Prashant Shenoy. <i>Shared Solar-powered EV Charging
-								Stations: Feasibility and Benefits</i>. Proceedings of the seventh
-							Intl. Green and Sustainable Computing (IGSC), Hangzhou, China,
-							Nov 2016.</li>
-						<li>Vani Gupta, <b>Stephen Lee</b>, Prashant Shenoy, Ramesh
-							Sitaraman, Rahul Urgaonkar. <i>How to Cool Internet-Scale
-								Distributed Networks on the Cheap</i>. Proceedings of the seventh
-							ACM Intl. Conference on Future Energy Systems (ACM e-Energy),
-							Waterloo, Canada, June 2016.
-						</li>
-						<li>Akansha Singh, <b>Stephen Lee</b>, David Irwin, Prashant
-							Shenoy. <i>SunShade: Software-defined Solar Power</i>.
-							Proceedings of the seventh ACM Intl. Conference on Future Energy
-							Systems (ACM e-Energy), Waterloo, Canada, June 2016 (Poster).
-						</li>
-					</ol>
-					<h2>2015</h2>
-					<ol class="pub-list">
-						<li>Aditya Mishra, Ramesh Sitaraman, David Irwin, Ting Zhu,
-							Prashant Shenoy, Bhavana Dalvi, <b>Stephen Lee</b>. <i>Integrating
-								Energy Storage in Electricity Distribution Networks</i>. Proceedings
-							of the sixth ACM Intl. Conference on Future Energy Systems (ACM
-							e-Energy), Bengaluru, India, July 2015.
-						</li>
-						<li><b>Stephen Lee</b>, Rahul Urgaonkar, Ramesh Sitaraman,
-							Prashant Shenoy. <i>Cost Minimization using Renewable Cooling
-								and Thermal Energy Storage in CDNs</i>. Proceedings of the 12th IEEE
-							International Conference on Autonomic Computing (ICAC), July
-							2015.</li>
-						<li>Vani Gupta, <b>Stephen Lee</b>, Prashant Shenoy, Ramesh
-							Sitaraman, Rahul Urgaonkar. <i>Towards cooling Internet-Scale
-								Distributed Networks on the Cheap</i>. Proceedings of the ACM
-							Sigmetrics Conference, Portland, Oregon, June 2015. (Poster).
-						</li>
-						<li>Prateek Sharma, <b>Stephen Lee</b>, Tian Guo, David
-							Irwin, Prashant Sharma. <i>Expect the Unexpected: Designing
-								Derivative Clouds</i>. Proceedings of the Tenth European Conference
-							on Computer Systems, EuroSys 2015, April 2015.
-						</li>
-					</ol>
-				</div>
-				<div class="footer">
-					<div class="inner"></div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section id="contact" class="site-wrapper">
+	</section> -->
+	<!-- <section id="contact" class="site-wrapper">
 		<div class="site-wrapper-inner">
 			<div class="cover-container">
 				<div class="inner cover">
@@ -117,11 +171,11 @@
 					<p class="lead">github: <a href="https://github.com/stephenlee86" target="_blank" >stephenlee86</a></p>
 				</div>
 				<div class="footer">
-					<!-- <div class="inner">Last Updated: Oct 2016</div> -->
+					<div class="inner">Last Updated: Oct 2016</div>
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<script
 		src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
